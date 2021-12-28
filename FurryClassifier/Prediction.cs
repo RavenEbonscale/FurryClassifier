@@ -17,7 +17,6 @@ namespace FurryClassifier
         /// Out Puts a Sexuality
         /// </summary>
         /// <remarks>Work in Progress</remarks>
-
         /// <param name="Image">Is a Byte Arry of an Image </param>
         /// 
         /// <returns>Sexuality Precicton</returns>
@@ -48,6 +47,7 @@ namespace FurryClassifier
                 #endregion
 
                 return Classification.SexualityClassification[classification];
+                
             }
            
         }
